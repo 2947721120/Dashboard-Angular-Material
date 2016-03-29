@@ -1,0 +1,63 @@
+<div ng-include="'assets/views/template/topMenu.html'"></div>
+<div ng-include="'assets/views/template/navside.html'"></div>
+<main>
+	<div class="row">
+		<div class="col s12 m9 l9">
+			<div class="slider z-depth-1" ng-controller="carousel" ng-init="load()">
+				<ul class="slides">
+					<li>
+						<img src="http://lorempixel.com/500/180/nature/1">
+						<div class="caption left-align">
+							<div class="figcaption">
+								<h5>Left Aligned Caption</h5>
+								<p class="light grey-text text-lighten-3">Here's our small slogan.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="http://lorempixel.com/500/180/nature/2">
+						<div class="caption left-align">
+							<h5>Left Aligned Caption</h5>
+							<p class="light grey-text text-lighten-3">Here's our small slogan.</p>
+						</div>
+					</li>
+					<li>
+						<img src="http://lorempixel.com/500/180/nature/3">
+						<div class="caption left-align">
+							<h5>Left Aligned Caption</h5>
+							<p class="light grey-text text-lighten-3">Here's our small slogan.</p>
+						</div>
+					</li>
+					<li>
+						<img src="http://lorempixel.com/500/180/nature/4">
+						<div class="caption left-align">
+							<h5>Left Aligned Caption</h5>
+							<p class="light grey-text text-lighten-3">Here's our small slogan.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col offset-s2 s10 m2 l2">
+				<img src="assets/img/calendar.png" class="z-depth-1" style="height: 180px;">
+		</div>
+	</div>
+	<div class="row" ng-controller="galleryProducts">
+		<div class="col s12 m4 l4" ng-repeat="product in productData.products">
+			<div class="card">
+				<div class="card-content">
+					<span class="card-title">{{product.name}}</span>
+					<img src="assets/img/{{product.img}}" style="height: 78px;" >
+					<p>{{product.description}}</p>
+					<strong><h5>{{product.price}}</h5></strong>
+				</div>
+				<div class="card-action">
+					<a href="{{product.link}}" class="waves-effect waves-light btn" style="width: 100%;">Comprar</a>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+</main>

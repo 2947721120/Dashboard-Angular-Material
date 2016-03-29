@@ -1,0 +1,5 @@
+   <div style="position: relative;" ng-controller="sideMenu" ng-init="load()"> 
+   <ul id="slide-out" class="side-nav fixed grey darken-1 text-white">
+      <li ng-repeat="menus in menuData.menu"><a href="{{menus.link}}" class="white-text"><i class="material-icons icon-label small">{{menus.icon}}</i><span class="menu-label light" ng-hide="showme">{{menus.item}}</span></a></li>
+    </ul>
+    </div>

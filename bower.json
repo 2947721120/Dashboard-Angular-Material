@@ -1,0 +1,24 @@
+{
+  "name": "me",
+  "description": "Little gallery",
+  "main": "index.js",
+  "authors": [
+    "Eduardo Sato"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "angular": "^1.5.2",
+    "angular-route": "^1.5.2",
+    "Materialize": "materialize#^0.97.5"
+  }
+}

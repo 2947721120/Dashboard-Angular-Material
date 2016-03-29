@@ -1,0 +1,30 @@
+	{
+		"products":
+		[
+		{
+			"id": "1",
+			"name": "Nome do produto",
+			"description": "Bacon ipsum dolor amet shank ball tip pastrami.",
+			"img": "product.jpg",
+			"link": "#!",
+			"price":"R$15,90"
+			},
+			{
+				"id": "2",
+				"name": "Nome do produto",
+				"description": "Bacon ipsum dolor amet shank ball tip pastrami.",
+				"img": "product.jpg",
+				"link": "#!",
+				"price":"R$15,90"
+				},
+				{
+					"id": "3",
+					"name": "Nome do produto",
+					"description": "Bacon ipsum dolor amet shank ball tip pastrami.",
+					"img": "product.jpg",
+					"link": "#!",
+					"price":"R$15,90"
+				}
+				]
+
+			}
