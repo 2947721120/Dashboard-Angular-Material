@@ -1,8 +1,13 @@
-# Dashboard-Angular-Material
-Dashboard using Angular and materializecss
+# Admin Dashboard-Angular-Material
+Admin Dashboard using Angular and materializecss
+
+##Example
+http://papoinformal.com.br/me/Dashboard-Angular-Material/#/
+PS: Maybe this sample had some changes, download and be happy.
 
 Please look into the GITIGNORE
 
+##Instalation
 Basic Commands to start:
   - npm install
   - bower install
